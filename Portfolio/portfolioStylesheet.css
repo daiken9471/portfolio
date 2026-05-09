@@ -21,8 +21,7 @@ nav a{
 nav a:hover{
     color: purple;}
 
-h1{ 
-    text-align: center;}
+h1{ text-align: center;}
 
 h2{
     text-align: center;
@@ -31,14 +30,11 @@ h2{
     margin-right: auto;
     margin-left: auto;}
 
-h3{
-    text-align: center;}
+h3{ text-align: center;}
 
-h4{
-    text-align: center;}
+h4{ text-align: center;}
 
-p{
-    text-align: center;}
+p{  text-align: center;}
 
 dl{ 
     margin-top: auto;
@@ -84,14 +80,6 @@ footer{
 .yellowText{
     color:yellow;}
 
-.indexBackground{
-    background-color: #707070; 
-    height: 100%;
-    background-repeat: no-repeat;
-    background-attachment:fixed;}
-
-
-
 .midtermThirdPageBackground{
     background-image: url("images/pixelParkBench.jpg");     
     background-repeat: no-repeat;
@@ -121,13 +109,6 @@ footer{
     background-size: 30% 30%;
     background-position: bottom;}    
 
-.indexPadding{
-    
-    display: flex;
-    align-items: center;
-    justify-content: center;    
-    flex-wrap: wrap;}
-
 .flexContainer {
     flex-direction: row;
     display: flex;
@@ -144,18 +125,8 @@ footer{
     justify-content: center;
     align-items: center;}
 
-
-
-
-
-
-
-
-
-
 @media (max-width: 800px) {
     .flexContainer {
         flex-direction: column;}
-    .navContainer{flex-direction: column;}
-}
+    .navContainer{flex-direction: column;}}
 
