@@ -10,51 +10,75 @@ anyways, here's my portfolio home page-->
     <title>David Aiken Portfolio</title>
     <meta charset="utf-8">   
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+        body{
+            display: grid;
+            place-items: center;
+            background-color: #000000;
+            background-image: radial-gradient(#002f00,#000000);}
+        .container{
+            align-items: center;
+            justify-content: center;            
+            color: #00ee00;
+            border: 5px solid;
+            border-color: #00ee00;
+            border-radius: 25px;
+            padding: 1rem;}
+        nav a{color: #00ee00}
+        .navboxes{
+            border: 2px solid;
+            border-color: #00ee00; 
+            width:fit-content;
+            padding: 5px;}
+        .email{
+            margin:auto;
+            border: 2px solid;
+            border-color: #00ee00; 
+            width:fit-content;
+            padding: 5px;}
+        a[href^="mailto:"]{color:#00ee00}
+    </style>
 </head>
 
 <body>
-    <div class="indexBackground">
-    <div class="indexPadding">
-    <header>       
-    </header>
+    <main> 
 
-    <main>  
+
+        <nav>
+            <ul>
+                
+                <li><div class="navboxes"><a href="resume.html">DAVID'S RESUME</a></div></li>
+                <li><div class="navboxes"><a href="aboutMe.html">ABOUT ME</a></div></li>
+                <li><div class="navboxes"><a href="R2savesTheGalaxy.html">R2D2: FORCE OR FICTION?</a></div></li>
+                <li><div class="navboxes"><a href="CinnabarGym.html">CINNABAR GYM</a></li>
+                <li><div class="navboxes"><a href="characterBuilder.html">HTML+CSS CHARACTER BUILDER</a></div></li>
+                <li><div class="navboxes"><a href="JavaScriptcharacterBuilder.html">JAVASCRIPT CHARACTER BUILDER</a></div></li>
+        
+            </ul>
+        </nav>
+        <div class="container">
         
         
         
         <h1>Hello, I'm David.</h1>
         <p>Please join me on this journey though my education and professional history.</p>
         <p>Allow me to share with you the shortest version of that story:</p> 
+        <br>
         <h2>Restaurant Management</h2>
         <h2>to</h2>
         <h2>Computer Information Systems</h2>
         
-        <nav>
-            <ul>
-                <div class="navContainer">
-                <li><a href="resume.html">David's Resume</a></li>
-                <li><a href="aboutMe.html">About Me</a></li>
-                <li><a href="R2savesTheGalaxy.html">R2D2: Force or Fiction?</a></li>
-                <li><a href="CinnabarGym.html">Cinnabar Gym</a></li>
-                <li><a href="characterBuilder.html">html+css character builder</a></li>
-                <li><a href="JavaScriptcharacterBuilder.html">JavaScript Character Builder</a></li>
-                </div>
-            </ul>
-        </nav>
+        
 
-        <p><em><a href="mailto:daiken9471@gmail.com">Contact Me!</em></a></p>
+        
         <br>
         <br>
         <p>There are copyrighted images in this portfolio. They are only used as examples of skills I've learned. 
             For example, an image used as a link or button.</p>
-
-    
-        
-    </main>
-    
-    <footer>
-    </footer>
-    
+        </div>
+    </div>       
+    </main>    
+    <div class="email"><p><em><a href="mailto:daiken9471@gmail.com">CONTACT ME</em></a></p></div>
 </div>
 </div>
 </body>
