@@ -69,7 +69,7 @@ const classes = {
 function changeClass(className){
     const characterClass = classes[className]    
     document.body.style.backgroundImage = characterClass.image
-    document.body.style.backgroundSize = "contain"    
+    document.body.style.backgroundSize = "cover"    
     document.body.style.backgroundPosition = "center"
     document.body.style.backgroundRepeat = "no-repeat"
     document.body.style.backgroundAttachment = "fixed"
